@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/e3b8812323.js" crossorigin="anonymous"></script>
+</head>
+<body class="">
+    <div class="sigin-up-container">
+        <div class="row">
+           <form id="signin-form">
+                <div class="logo">
+                  <img src="Images/logo.png">
+                </div>
+                <h2>Welcome Back</h2>
+                <p>Sign In with your Email Address and Password.</p>
+                <input class="email" type="text" name="email-id" placeholder="Your Email ID" required >
+                <input class="password" type="password" name="pass" placeholder="Enter Password" required>
+                <div class="rem-for">
+                    <input type="checkbox" id="check"  name="rem" value="Remember Me">
+                    <label for="option">Remember Me</label>
+                    <p>Forgot Password?</p>
+                </div>
+                <div class="signin-btn">
+                    <button>Sign In</button>
+                </div>
+                <div class="new">
+                    <p>New to Swiggy?</p>
+                    <h4 id="create">Create an account</h4>
+                </div>
+            </form>
+
+            <form id="signup-form">
+                <h2>Welcome to</h2>
+                <div class="logo">
+                    <img src="Images/logo.png">
+                  </div>
+                <p>Please fill your Username,Email ID and Password to create your new account.</p>
+                <input class="username" type="text" name="user" placeholder="Enter your Username" required>
+                <input class="email" type="text" name="email-id" placeholder="Your Email ID" required >
+                <input class="password" type="password" name="pass" placeholder="Enter Password" required>
+                <div class="signup-btn">
+                    <button>Sign Up</button>
+                </div>
+                <div class="new">
+                    <p>Already have an account?</p>
+                    <h4 id="login">Sign In</h4>
+                </div>
+            </form> 
+
+            <div class="food-img">
+                <img src="Images/foods.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div id="website">
+    <header id="header" class="fixed-top">
+        <div class="header-container">
+            <img class="comp-logo" src="Images/logo.png">
+
+        <navbar id="navbar" class="navbar">
+            <ul>
+                <li><a class="search" href="#"></a> <i class="fa-solid fa-magnifying-glass"></i>Search</li>
+                <li><a class="offers" href="#"></a><i class="fa-solid fa-tag"></i>Offers</li>
+                <li><a class="help" href="#"></a><i class="fa-solid fa-circle-info"></i>Help</li>
+                <li><i class="fa-solid fa-user"></i><a href="index.html">Log Out</a></li>
+                <div class="shopping">
+                  <li><a class="cart" href="#"></a><i class="fa-solid fa-cart-shopping"></i>Cart</li>
+                  <span class="quantity">0</span>
+                </div>
+            </ul>
+        </navbar>
+        </div>
+    </header>
+
+    <section id="mind">
+        <div class="mind-container">
+            <h3 class="heading">What's on your mind?</h3>
+
+            <div class="mind-row">
+                <div class="pizza">
+                    <img src="Images/pizza.png">
+                    <h4>Pizza</h4>
+                </div>
+
+                <div class="biryani">
+                    <img src="Images/biryani.png">
+                    <h4>Biryani</h4>
+                </div>
+
+                <div class="burger">
+                    <img src="Images/burger.png">
+                    <h4>Burger</h4>
+                </div>
+
+                <div class="noodles">
+                    <img src="Images/chinese.png">
+                    <h4>Noodles</h4>
+                </div>
+
+                <div class="dosa">
+                    <img src="Images/dosai.png">
+                    <h4>Dosa</h4>
+                </div>
+
+                <div class="parotta">
+                    <img src="Images/parotta.png">
+                    <h4>Parotta</h4>
+                </div>
+            </div>
+            <hr class="hr">
+        </div>
+    </section>
+
+    <section id="top-hotels">
+        <div class="top-container">
+            <h3 class="top">Top Restaurant chains in chennai</h3>
+
+            <div class="top-row">
+                <div class="burger-king">
+                    <img src="Images/burger king.jpg">
+                    <h2>Burger King</h2>
+                    <div class="hotel-row">
+                        <i class="fa-solid fa-star"></i>
+                      <h2>4.3</h2>
+                      <h2>35mins</h2>
+                    </div>
+                    <p>Burgers, American</p>
+                    <p>Uthandi</p>
+                </div>
+
+                <div class="kfc">
+                    <img src="Images/kfc.jpg">
+                    <h2>KFC</h2>
+                    <div class="hotel-row">
+                        <i class="fa-solid fa-star"></i>
+                      <h2>4.2</h2>
+                      <h2>25mins</h2>
+                    </div>
+                    <p>Burgers, American, Snacks</p>
+                    <p>OMR- Perungudi</p>
+                </div>
+
+                <div class="dominos">
+                    <img src="Images/dominos.jpg">
+                    <h2>Domino's Pizza</h2>
+                    <div class="hotel-row">
+                      <i class="fa-solid fa-star"></i>
+                      <h2>4.3</h2>
+                      <h2>25mins</h2>
+                    </div>
+                    <p>Pizzas, Italian, Pastas</p>
+                    <p>Shollinganallur</p>
+                </div>
+            </div>
+            <hr class="hr1">
+        </div>
+    </section>
+
+    <section id="res-lists">
+    <div class="online-res">
+           
+      <h3 class="chennai-res">Restaurants with online food delivery in Chennai</h3>
+ 
+      <div class="selection">
+        <div id="restaurant-selection">
+          <button class="active">All Restaurants</button>
+          <button>Cost: Low to High</button>
+          <button>Cost: High to Low</button>
+          <button>Fast Delivery</button>
+          <button>Ratings 4.0+</button>
+          <button>Pure Veg</button>
+          <button>Non Veg</button>
+      </div>
+      </div>
+
+    </div>
+
+    <div class="restaurantlist">
+
+    </div>
+    <hr>
+    </section>
+
+    <div class="list">
+        
+    </div>
+
+    <div class="card">
+        <h1>My Cart</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="checkout">
+                <a href="checkout.html">Checkout</a>
+            </div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+    
+    <section id="online-platforms">
+        <div class="PS-AS">
+            <h2>For better experience,download<br> the Swiggy app now</h2>
+            <img src="Images/PS.png">
+            <img src="Images/AS.png">
+        </div>
+    </section>
+
+    <section id="bottom">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="pvt-ltd">
+                    <img src="Images/logo.png">
+                    <p>@ 2023 Bundl Technologies <br>Pvt.Ltd</p>
+                </div>
+
+                <div class="company">
+                    <h2>Company</h2>
+                    <p>About</p>
+                    <p>Careers</p>
+                    <p>Team</p>
+                    <p>Swiggy One</p>
+                    <p>Swiggy Instamart</p>
+                    <p>Swiggy Genie</p>
+                </div>
+
+                <div class="contact-legal">
+                    <div class="contactus">
+                        <h2>Contact Us</h2>
+                        <p>Help & Support</p>
+                        <p>Partner with us</p>
+                        <p>Ride with us</p>
+                    </div>
+                    <div class="legal">
+                        <h2>Legal</h2>
+                        <p>Terms & Conditions</p>
+                        <p>Cookie Policy</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+
+                <div class="deliver">
+                    <h2>We deliver to:</h2>
+                    <p>Bangalore</p>
+                    <p>Gurgaon</p>
+                    <p>Hyderabad</p>
+                    <p>Delhi</p>
+                    <p>Mumbai</p>
+                    <p>Chennai</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+
+  <script src="JS/script.js"></script>
+  
+</body>
+</html>

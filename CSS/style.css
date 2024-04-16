@@ -1,0 +1,720 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.sigin-up-container{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.food-img{
+    height: 100vh;
+    width: 60%;
+}
+
+.food-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    display: flex;
+}
+
+.rem-for{
+    display: flex;
+    justify-content:space-between;
+    width: 56%;
+    font-size: 12px;
+}
+
+.rem-for label{
+    padding-right: 8rem;
+}
+
+.new{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+}
+
+.new h4{
+    color: #FFC779;
+    font-weight: bolder;
+    font-size: 16px;
+    padding-bottom: 13px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+#signin-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height: 90vh;
+}
+
+.logo{
+    width: 40%;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.signin-btn button{
+    padding:8px 48px;
+    background-color: #FC8019;
+    color: #fafafa;
+    border: none;
+    border-radius: 0px;
+    font-size: 18px;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+.signin-btn button:hover{
+    background-color: #FC8019;
+    color: #fafafa;
+    transition: 0.3s ease-in-out;
+}
+
+.email{
+    padding: 16px 24px;
+    width: 50%;
+    border: 1px solid #c7bdc6;
+    border-radius: 8px;
+}
+
+.password{
+    padding: 16px 24px;
+    width: 50%;
+    border: 1px solid #c7bdc6;
+    border-radius: 8px;
+}
+
+#create{
+    color: #FC8019;
+}
+
+.username{
+    padding: 16px 24px;
+    width: 50%;
+    border: 1px solid #c7bdc6;
+    border-radius: 8px;
+}
+
+#signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height: 100vh;
+}
+
+#signup-form p{
+    font-size: 14px;
+}
+
+.signup-btn button{
+    padding:8px 48px;
+    background-color: #FC8019;
+    color: #fafafa;
+    border: none;
+    border-radius: 0px;
+    font-size: 18px;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+.signup-btn button:hover{
+    background-color: #FC8019;
+    color: #fafafa;
+    transition: 0.3s ease-in-out;
+}
+
+#login{
+    color: #FC8019;
+    font-size: 16px;
+}
+
+/* Add a CSS class to hide elements */
+.hidden {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+}
+
+/* Header Section */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.header-container{
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.comp-logo{
+    width: 8%;
+    height: 5vh;
+    margin-left: 16rem;
+    margin-top: 14px;
+}
+
+.comp-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    padding: 0;
+    margin-left: 20rem;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar>ul>li {
+    white-space: nowrap;
+    padding: 10px 0 10px 24px;
+    margin-left: 12px;
+}
+
+.navbar>ul>li>i{
+    padding: 0px 12px;
+}
+
+.navbar>ul>li>a{
+    list-style: none;
+    text-decoration: none;
+    color: #1C1F25;
+}
+
+.navbar li:hover{
+    cursor: pointer;
+    color: #FC8019;
+}
+
+.navbar>ul>li>a:hover{
+    color: #FC8019;
+}
+
+.mind-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 4rem;
+    cursor: pointer;
+}
+
+.mind-row > div {
+    text-align: center;
+    margin: 10px;
+    width: 150px; /* Adjust as needed */
+}
+
+.mind-row img {
+    border-radius: 50%;
+    width: 140px; /* Adjust as needed */
+    height: 140px; /* Adjust as needed */
+    object-fit: cover;
+}
+
+.mind-row div {
+    margin-top: 5px;
+}
+
+.noodles h4{
+    padding-top: 6px;
+}
+
+.mind-container h3{
+    padding: 2rem 0 2rem 12rem;
+    font-size: 24px;
+}
+
+.hr{
+    width: 80%;
+    margin: auto;
+    opacity: 0.5;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.top-row img {
+    border-radius: 12%;
+    width: 320px; 
+    height: 240px; 
+    object-fit: cover;
+}
+
+.hr1{
+    width: 80%;
+    margin: auto;
+    opacity: 0.5;
+}
+
+.top-container h3{
+    padding: 2rem 0 2rem 12rem;
+    font-size: 24px;
+}
+
+.top-row h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.top-row i{
+    background-color: #1B8F3D;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fafafa;
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.hotel-row{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: .4rem 0;
+}
+
+.hr2{
+    width: 80%;
+    margin: auto;
+    opacity: 0.5;
+}
+
+.PS-AS{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    background-color: #F0F0F5;
+    height: 15vh;
+    margin-top: 4rem;
+}
+
+.PS-AS img {
+    border-radius: 4%;
+    width: 240px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.PS-AS h2{
+    font-size: 18px;
+}
+
+.footer-container{
+    width: 100%;
+    background-color: #02060C;
+    color: #EBEBEC;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-row{
+    width: 70%;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pvt-ltd img{
+    width: 30%;
+}
+
+.contact-legal{
+    padding-left: 12rem;
+}
+
+.deliver{
+    padding-left: 12rem;
+}
+
+.legal{
+    margin-top: 2rem;
+}
+
+.footer-row p{
+    padding: .4rem 0;
+    font-size: 14px;
+}
+
+.footer-row h2{
+    font-size: 20px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+.item {
+    padding: 1rem;
+}
+
+.item img{
+    border-radius: 12%;
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.item .hotel{
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item .title{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item .price{
+    margin-bottom: 8px;
+}
+
+.list .item button{
+    background-color: #FC8019;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card{
+    position: fixed;
+    top:0;
+    left: 100%;
+    width: 500px;
+    background-color: #453E3B;
+    height: 100vh;
+    transition: 0.5s;
+}
+
+.active .card{
+    left: calc(100% - 500px);
+}
+
+.active .container{
+   transform: translateX(-200px);
+}
+
+.card h1{
+    color: #FC8019;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.card .checkOut{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.card .checkOut div{
+    background-color: #FC8019;
+    color: #fafafa;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card .checkOut div:nth-child(2){
+    background-color: #1C1F25;
+    color: #fff;
+}
+
+
+.checkout-btn{
+    padding:2rem;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.listCard .item{
+    display: grid;
+    grid-template-columns: 50px 1fr 70px;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.listCard  .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4px;
+}
+
+.listCard button{
+    background-color: #FC8019;
+    color: #fafafa;
+    border: none;
+    padding: 4px 8px;
+}
+
+.listCard .item div{
+    display: flex;
+}
+
+.listCard .count{
+    margin: 0 10px;
+}
+
+.listCard .hotel{
+    font-size: 14px;
+    padding: 10px 8px;
+}
+
+.listCard .title{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.shopping{
+    position: relative;
+}
+
+.shopping span{
+    background: #FC8019;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: -8px;
+    left: 100%;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+
+.cart{
+    padding-right: 2.5rem;
+}
+
+.restaurantlist{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+.restaurant-card{
+    padding: 1rem;
+}
+
+.restaurant-card img{
+    border-radius: 12%;
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+}
+
+#restaurant-selection button{
+    padding: 8px 16px;
+    background-color: #fafafa;
+    border: 1px solid #453E3B;
+    border-radius: 32px;
+}
+
+#restaurant-selection button:hover{
+    background-color: #FC8019;
+    color: #fafafa;
+    border: none;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+#restaurant-selection{
+    padding: 0.2rem 0 2rem 12rem;
+}
+
+.chennai-res{
+    padding: 2rem 0 2rem 12rem;
+    font-size: 24px;
+}
+
+/* Checkout container styles */
+.checkout-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkout layout styles */
+.checkout-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Checkout left section styles */
+.returncart {
+    flex: 1;
+}
+
+.checkout-list {
+    margin-top: 20px;
+}
+
+.checkout-list .item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.checkout-list .item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+/* Checkout right section styles */
+.checkout-right {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.checkout-form {
+    margin-bottom: 20px;
+}
+
+.group {
+    margin-bottom: 15px;
+}
+
+.group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.group input,
+.group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Return section styles */
+.return {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.return .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.totalPrice {
+    font-weight: bold;
+}
+
+/* Checkout button styles */
+.buttonCheckout {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.buttonCheckout:hover {
+    background-color: #45a049;
+}
+
+.returncart a{
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.quantity, .returnPrice {
+    display: none;
+}
+
+.checkout a{
+    text-decoration: none;
+    color: #ffffff;
+}
